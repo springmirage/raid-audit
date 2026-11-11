@@ -1,0 +1,1227 @@
+{
+  "date": "2026-11-10",
+  "summary": "今晚共 6 把（WCL F13–18），全部止于 P1，没有击杀。最长 F16：1:38，结束 Boss 92.71%。\n优先 1：0:24–0:25 尾部近战覆盖。F14、F18 的尾部猛击直接造成首批减员；F13 同期也触发，但此前已减员。\n优先 2：第一砸前保护好蛋。F15 在 0:21 与 0:39，F16 在 0:26 出现提前破蛋及薄膜，不能都算作盘卷成功。\n优先 3：0:40–0:44 第一砸与毒波衔接。F16、F17 有明确毒波致死；F17 第二砸附近的破蛋不按时间邻近强行判成功。\n口径：本页是本地待复核稿。完整事件已取齐；未取得语音喊灭、当晚固定分工和空间回放证据。死亡及同时发生的事件不是责任结论，不做个人失误排名。P2/P3 无实战样本，不填写。",
+  "fights": [
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 13,
+      "label": "本晚 M8 第 1 把 · 未击杀 · 结束 97.56%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=summary",
+      "durationSeconds": 38.865,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f13-priority",
+          "phase": "P1",
+          "title": "起手孵化与毒波先造成减员",
+          "players": [],
+          "conclusion": "0:16 丨天灾丨牧师在两次剧毒孵化伤害后死亡；0:18 先睡一会吧死于腐蚀浪潮。首个腐臭薄膜在 0:19 出现，当时尚未出现首轮盘卷结算。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "先统一起手落点、取蛋通道与毒波观察方向。仅凭事件不能判断是站在孵化区域、移动受阻还是指挥安排冲突。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 25.756,
+              "actor": "尾部",
+              "event": "尾部猛击 · 1299206",
+              "note": "精确时刻 25.756 秒。技能说明：尾部未处于近战交战时触发全团伤害。不能仅据此确定哪位玩家离位。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1299206"
+            },
+            {
+              "seconds": 29.484,
+              "actor": "尾部",
+              "event": "尾部猛击 · 1299206",
+              "note": "精确时刻 29.484 秒。技能说明：尾部未处于近战交战时触发全团伤害。不能仅据此确定哪位玩家离位。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1299206"
+            },
+            {
+              "seconds": 16.095,
+              "actor": "丨天灾丨牧师",
+              "event": "剧毒孵化 · damage",
+              "note": "精确时刻 16.095 秒。死亡事件 16.097 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1299919"
+            },
+            {
+              "seconds": 18.136,
+              "actor": "先睡一会吧",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 18.136 秒。死亡事件 18.163 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 25.76,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.760 秒。死亡事件 25.826 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": null,
+              "actor": "机制参考",
+              "event": "尾部猛击触发条件",
+              "note": "尾部未处于近战交战时，施放全团伤害技能。技能文字支持机制分类，不足以确定个人责任。",
+              "url": "https://www.wowhead.com/spell=1299206/rattler-slam"
+            }
+          ]
+        },
+        {
+          "id": "f13-first-losses",
+          "phase": "P1",
+          "title": "尾部猛击是后续放大因素",
+          "players": [
+            "丨天灾丨牧师",
+            "先睡一会吧",
+            "小林历奇"
+          ],
+          "conclusion": "0:25 尾部猛击造成团队伤害，小林历奇等人减员。此时已有两名不同玩家死亡，不能把这场全部问题只归到尾部。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "检查尾部接触和主坦/副坦交接安排；不要把全团被命中名单当作个人躲避失误榜。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 16.095,
+              "actor": "丨天灾丨牧师",
+              "event": "剧毒孵化 · damage",
+              "note": "精确时刻 16.095 秒。死亡事件 16.097 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1299919"
+            },
+            {
+              "seconds": 18.136,
+              "actor": "先睡一会吧",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 18.136 秒。死亡事件 18.163 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 25.76,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.760 秒。死亡事件 25.826 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=damage-taken&ability=1299206"
+            }
+          ]
+        },
+        {
+          "id": "f13-egg-chain",
+          "phase": "P1",
+          "title": "第一波尚未形成有效盘卷样本",
+          "players": [
+            "小林历奇",
+            "黄色闪光",
+            "派瑞星",
+            "大老板的猎手",
+            "吾王的荣耀"
+          ],
+          "conclusion": "只记录到 5 名玩家获得剧毒之壳，没有腐臭卵心应用，也没有 1299010 盘卷结算。战斗 0:38 结束。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "此场先看起手和存活，不根据提早结束判定其余人漏拿蛋。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 18.64,
+              "actor": "小林历奇",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.640 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1307612"
+            },
+            {
+              "seconds": 19.016,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 19.016 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1307612"
+            },
+            {
+              "seconds": 25.226,
+              "actor": "派瑞星",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 25.226 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1307612"
+            },
+            {
+              "seconds": 25.505,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 25.505 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1307612"
+            },
+            {
+              "seconds": 26.579,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 26.579 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=13&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 14,
+      "label": "本晚 M8 第 2 把 · 未击杀 · 结束 97.17%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=summary",
+      "durationSeconds": 52.008,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f14-priority",
+          "phase": "P1",
+          "title": "先解决 0:24 尾部猛击",
+          "players": [],
+          "conclusion": "24.771 秒尾部施放猛击；24.796 秒小林历奇承受致死伤害，24.837 秒死亡。此次减员发生在首轮盘卷之前。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "下把先确认尾部始终有近战覆盖，再复核尾部坦克职责与接怪/移动是否冲突。当前不指定某位坦克责任。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 24.771,
+              "actor": "尾部",
+              "event": "尾部猛击 · 1299206",
+              "note": "精确时刻 24.771 秒。技能说明：尾部未处于近战交战时触发全团伤害。不能仅据此确定哪位玩家离位。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1299206"
+            },
+            {
+              "seconds": 24.796,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 24.796 秒。死亡事件 24.837 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 41.061,
+              "actor": "黄色闪光",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 41.061 秒。死亡事件 41.062 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": 41.059,
+              "actor": "Logwarlock",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 41.059 秒。死亡事件 41.063 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": null,
+              "actor": "机制参考",
+              "event": "尾部猛击触发条件",
+              "note": "尾部未处于近战交战时，施放全团伤害技能。技能文字支持机制分类，不足以确定个人责任。",
+              "url": "https://www.wowhead.com/spell=1299206/rattler-slam"
+            }
+          ]
+        },
+        {
+          "id": "f14-first-losses",
+          "phase": "P1",
+          "title": "首轮盘卷发生连续死亡",
+          "players": [
+            "小林历奇",
+            "黄色闪光",
+            "Logwarlock"
+          ],
+          "conclusion": "41.034 秒第一砸；黄色闪光、Logwarlock、派瑞星在 41.062–41.064 秒死亡。43.449 秒第二砸时已经有多次减员。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "复查第一砸前血线、减伤和实际分担位置，不凭全团伤害命中人数反推进圈人数。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 24.796,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 24.796 秒。死亡事件 24.837 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 41.061,
+              "actor": "黄色闪光",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 41.061 秒。死亡事件 41.062 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": 41.059,
+              "actor": "Logwarlock",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 41.059 秒。死亡事件 41.063 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": 41.034,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 41.034 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.449,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.449 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f14-egg-chain",
+          "phase": "P1",
+          "title": "8 次拾蛋，不能等同 8 次成功破蛋",
+          "players": [
+            "黄色闪光",
+            "派瑞星",
+            "茗浩小宝贝",
+            "小林历奇",
+            "吾王的荣耀",
+            "大老板的猎手",
+            "先睡一会吧",
+            "Logwarlock"
+          ],
+          "conclusion": "本场 8 名玩家各获得一次剧毒之壳。第一砸同刻仅见先睡一会吧、吾王的荣耀获得腐臭卵心；另外的去壳事件要结合死亡和异常孵化区分。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "补核其余持蛋者在第一砸前后的去向，不把死亡脱壳算成成功处理。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 16.444,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 16.444 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 16.829,
+              "actor": "派瑞星",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 16.829 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 18.403,
+              "actor": "茗浩小宝贝",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.403 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 19.032,
+              "actor": "小林历奇",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 19.032 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 22.303,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 22.303 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 30.577,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 30.577 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 30.968,
+              "actor": "先睡一会吧",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 30.968 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 34.445,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 34.445 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1307612"
+            },
+            {
+              "seconds": 41.061,
+              "actor": "先睡一会吧",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 41.061 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1312150"
+            },
+            {
+              "seconds": 41.061,
+              "actor": "吾王的荣耀",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 41.061 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=14&type=events&ability=1312150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 15,
+      "label": "本晚 M8 第 3 把 · 未击杀 · 结束 96.12%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=summary",
+      "durationSeconds": 61.005,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f15-priority",
+          "phase": "P1",
+          "title": "首砸前已有提前破蛋",
+          "players": [],
+          "conclusion": "21.731 秒黄色闪光、21.815 秒吾王的荣耀获得腐臭卵心，明显早于 40.437 秒第一砸；39.867 秒奶不到就放生、茗浩小宝贝也提前获得该减益，同时出现薄膜叠层。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "这两段应先回放持蛋路线与彼此距离。事件确认提前破蛋，尚不足以唯一判断碰撞双方或触发者。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 21.731,
+              "actor": "黄色闪光",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 21.731 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 21.815,
+              "actor": "吾王的荣耀",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 21.815 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 39.867,
+              "actor": "奶不到就放生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 39.867 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 39.867,
+              "actor": "茗浩小宝贝",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 39.867 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 21.731,
+              "actor": "Qui",
+              "event": "腐臭薄膜 · applydebuff",
+              "note": "精确时刻 21.731 秒。当场首次出现薄膜。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1301268"
+            }
+          ]
+        },
+        {
+          "id": "f15-first-losses",
+          "phase": "P1",
+          "title": "盘卷窗口先减员后崩溃",
+          "players": [
+            "茗浩小宝贝",
+            "韶光逍珑",
+            "先睡一会吧"
+          ],
+          "conclusion": "40.466 秒茗浩小宝贝死于幽魂盘卷；40.819 秒韶光逍珑死于腐臭薄膜；41.028 秒先睡一会吧死于坏死蒸汽。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "先消除提前破蛋额外压力，再检查第一砸前血线与治疗覆盖。不能仅凭最后一击给治疗定责。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 40.464,
+              "actor": "茗浩小宝贝",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 40.464 秒。死亡事件 40.466 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": 40.763,
+              "actor": "韶光逍珑",
+              "event": "腐臭薄膜 · damage",
+              "note": "精确时刻 40.763 秒。死亡事件 40.819 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=damage-taken&ability=1308275"
+            },
+            {
+              "seconds": 41.026,
+              "actor": "先睡一会吧",
+              "event": "坏死蒸汽 · damage",
+              "note": "精确时刻 41.026 秒。死亡事件 41.028 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=damage-taken&ability=1286835"
+            },
+            {
+              "seconds": 40.437,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 40.437 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.272,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.272 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f15-egg-chain",
+          "phase": "P1",
+          "title": "第一砸附近只确认两条对齐的破蛋结果",
+          "players": [
+            "黄色闪光",
+            "奶不到就放生",
+            "吾王的荣耀",
+            "大老板的猎手",
+            "茗浩小宝贝",
+            "韶光逍珑",
+            "派瑞星",
+            "先睡一会吧"
+          ],
+          "conclusion": "40.464 秒，大老板的猎手与韶光逍珑获得腐臭卵心，与第一砸时间对齐。39.867 秒的两条不得并入成功第一砸。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "继续分开记录拾蛋、去壳、腐臭卵心、盘卷伤害与死亡，不做宽时间窗一锅归类。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 15.53,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 15.530 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 18.252,
+              "actor": "奶不到就放生",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.252 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 18.399,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.399 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 21.143,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 21.143 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 21.939,
+              "actor": "茗浩小宝贝",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 21.939 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 22.879,
+              "actor": "韶光逍珑",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 22.879 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 23.718,
+              "actor": "派瑞星",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 23.718 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 28.566,
+              "actor": "先睡一会吧",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 28.566 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1307612"
+            },
+            {
+              "seconds": 21.731,
+              "actor": "黄色闪光",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 21.731 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 21.815,
+              "actor": "吾王的荣耀",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 21.815 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 39.867,
+              "actor": "奶不到就放生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 39.867 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 39.867,
+              "actor": "茗浩小宝贝",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 39.867 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.464,
+              "actor": "大老板的猎手",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.464 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.464,
+              "actor": "韶光逍珑",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.464 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=15&type=events&ability=1312150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 16,
+      "label": "本晚 M8 第 4 把 · 未击杀 · 结束 92.71%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=summary",
+      "durationSeconds": 98.297,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f16-priority",
+          "phase": "P1",
+          "title": "本晚最长，但仍在 P1",
+          "players": [],
+          "conclusion": "战斗 1:38.297，结束 Boss 92.71%。26.727–26.728 秒黄色闪光、以血为生提前获得腐臭卵心并出现薄膜，首砸为 40.346 秒。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "保留这场作为最完整的 P1 对照，但 1:38 生存时长不等于干净推进；先处理首轮前破蛋。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 26.727,
+              "actor": "黄色闪光",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 26.727 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 26.728,
+              "actor": "以血为生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 26.728 秒。首砸前破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 26.727,
+              "actor": "小林历奇",
+              "event": "腐臭薄膜 · applydebuff",
+              "note": "精确时刻 26.727 秒。当场首次出现薄膜。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1301268"
+            }
+          ]
+        },
+        {
+          "id": "f16-first-losses",
+          "phase": "P1",
+          "title": "第一砸后接浪是最早减员窗口",
+          "players": [
+            "莉姆",
+            "黄色闪光",
+            "剑二十三丶"
+          ],
+          "conclusion": "42.441 秒莉姆、43.441 秒黄色闪光先后死于腐蚀浪潮。随后剑二十三丶、韶光逍珑死于薄膜伤害。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "第一砸结束立即观察毒波并保留第二砸进圈路线；复查 42–44 秒交叉移动，不为了进第二圈直穿波。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 42.374,
+              "actor": "莉姆",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 42.374 秒。死亡事件 42.441 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 43.418,
+              "actor": "黄色闪光",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 43.418 秒。死亡事件 43.441 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 44.739,
+              "actor": "剑二十三丶",
+              "event": "腐臭薄膜 · damage",
+              "note": "精确时刻 44.739 秒。死亡事件 44.743 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=damage-taken&ability=1308275"
+            },
+            {
+              "seconds": 40.346,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 40.346 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.577,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.577 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f16-egg-chain",
+          "phase": "P1",
+          "title": "可对齐的破蛋结果：第一砸 4 人，第二砸 2 人",
+          "players": [
+            "黄色闪光",
+            "茗浩小宝贝",
+            "奶不到就放生",
+            "大老板的猎手",
+            "以血为生",
+            "小林历奇",
+            "Logwarlock",
+            "吾王的荣耀"
+          ],
+          "conclusion": "40.349 秒：茗浩小宝贝、奶不到就放生、大老板的猎手、小林历奇；43.580 秒：吾王的荣耀、Logwarlock。其余两条为 26.727 秒附近的提前破蛋。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "这只是本场事件分类，不代表既定 4＋2 分工。提前破蛋者和后续成功者都按各自实际时刻归档。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 15.762,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 15.762 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 15.877,
+              "actor": "茗浩小宝贝",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 15.877 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 20.173,
+              "actor": "奶不到就放生",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 20.173 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 21.101,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 21.101 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 23.218,
+              "actor": "以血为生",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 23.218 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 23.218,
+              "actor": "小林历奇",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 23.218 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 25.336,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 25.336 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 27.422,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 27.422 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1307612"
+            },
+            {
+              "seconds": 26.727,
+              "actor": "黄色闪光",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 26.727 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 26.728,
+              "actor": "以血为生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 26.728 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.349,
+              "actor": "茗浩小宝贝",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.349 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.349,
+              "actor": "奶不到就放生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.349 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.349,
+              "actor": "大老板的猎手",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.349 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.349,
+              "actor": "小林历奇",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.349 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 43.58,
+              "actor": "吾王的荣耀",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 43.580 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            },
+            {
+              "seconds": 43.58,
+              "actor": "Logwarlock",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 43.580 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=16&type=events&ability=1312150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 17,
+      "label": "本晚 M8 第 5 把 · 未击杀 · 结束 92.90%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=summary",
+      "durationSeconds": 75.996,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f17-priority",
+          "phase": "P1",
+          "title": "第一砸前未见薄膜，适合对照",
+          "players": [],
+          "conclusion": "首个薄膜出现在 43.479 秒，第一砸为 40.651 秒。本场可用来对照没有早期薄膜时的第一砸血线。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "保留作为改进样本，不据此声称完全无失误；大老板的猎手仍在第一砸死亡。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 43.479,
+              "actor": "Elsa",
+              "event": "腐臭薄膜 · applydebuff",
+              "note": "精确时刻 43.479 秒。当场首次出现薄膜，发生在第一砸之后。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1301268"
+            },
+            {
+              "seconds": 40.651,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 40.651 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.515,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.515 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f17-first-losses",
+          "phase": "P1",
+          "title": "第一砸后，毒波连续造成减员",
+          "players": [
+            "大老板的猎手",
+            "Qui",
+            "Liebesleid"
+          ],
+          "conclusion": "40.716 秒大老板的猎手死于幽魂盘卷；43.453 秒 Qui、43.863 秒 Liebesleid 死于腐蚀浪潮。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "优先复查 40 秒盘卷减伤与 43 秒躲浪路线，避免分担后横穿毒波。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 40.676,
+              "actor": "大老板的猎手",
+              "event": "幽魂盘卷 · damage",
+              "note": "精确时刻 40.676 秒。死亡事件 40.716 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=damage-taken&ability=1287265"
+            },
+            {
+              "seconds": 43.452,
+              "actor": "Qui",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 43.452 秒。死亡事件 43.453 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 43.862,
+              "actor": "Liebesleid",
+              "event": "腐蚀浪潮 · damage",
+              "note": "精确时刻 43.862 秒。死亡事件 43.863 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=damage-taken&ability=1292403"
+            },
+            {
+              "seconds": 40.651,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 40.651 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.515,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.515 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f17-egg-chain",
+          "phase": "P1",
+          "title": "第二砸附近不能只按相邻时间判成功",
+          "players": [
+            "奶不到就放生",
+            "吾王的荣耀",
+            "黄色闪光",
+            "Logwarlock",
+            "茗浩小宝贝",
+            "先睡一会吧",
+            "大老板的猎手",
+            "小林历奇"
+          ],
+          "conclusion": "43.479 秒小林历奇获得腐臭卵心，43.480 秒小林受到腐蚀浪潮伤害，并伴随首个薄膜；第二砸是 43.515 秒。Logwarlock、先睡一会吧在 43.520 秒获得腐臭卵心。44.210 秒吾王的荣耀、60.772 秒奶不到就放生则伴随毒波与薄膜叠层。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "小林的去壳不计为已确认第二砸成功，须回放确认触发顺序；不要把所有 ±100 毫秒破蛋都归入盘卷。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 17.548,
+              "actor": "奶不到就放生",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 17.548 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 18.279,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.279 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 19.646,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 19.646 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 22.48,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 22.480 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 23.797,
+              "actor": "茗浩小宝贝",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 23.797 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 26.345,
+              "actor": "先睡一会吧",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 26.345 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 26.576,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 26.576 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 29.357,
+              "actor": "小林历奇",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 29.357 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1307612"
+            },
+            {
+              "seconds": 40.677,
+              "actor": "茗浩小宝贝",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.677 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 40.677,
+              "actor": "黄色闪光",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 40.677 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 43.479,
+              "actor": "小林历奇",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 43.479 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 43.52,
+              "actor": "Logwarlock",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 43.520 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 43.52,
+              "actor": "先睡一会吧",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 43.520 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 44.21,
+              "actor": "吾王的荣耀",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 44.210 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            },
+            {
+              "seconds": 60.772,
+              "actor": "奶不到就放生",
+              "event": "腐臭卵心 · applydebuff",
+              "note": "精确时刻 60.772 秒。破蛋结果需要结合对应盘卷、毒波、薄膜与死亡逐项判断。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=17&type=events&ability=1312150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "VGyBPpdQJ3LrcKj8",
+      "fightId": 18,
+      "label": "本晚 M8 第 6 把 · 未击杀 · 结束 95.75%",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=summary",
+      "durationSeconds": 47.004,
+      "reachedPhase": "P1",
+      "reviews": [
+        {
+          "id": "f18-priority",
+          "phase": "P1",
+          "title": "0:25 尾部猛击直接产生最早两名死亡",
+          "players": [],
+          "conclusion": "25.177 秒尾部猛击；黄色闪光、小林历奇分别在 25.211、25.213 秒死亡。随后持蛋者连续减员，薄膜持续叠层。",
+          "process": "优先看首个异常，后续死亡仅用于说明影响链。",
+          "nextAction": "下把最优先保证尾部近战覆盖和 25 秒前持蛋者血线。具体是谁离开范围、为何离开，仍需分工和回放确认。",
+          "rule": "事实来自 WCL 原始事件。因果与个人责任需要额外证据。",
+          "evidence": [
+            {
+              "seconds": 25.177,
+              "actor": "尾部",
+              "event": "尾部猛击 · 1299206",
+              "note": "精确时刻 25.177 秒。技能说明：尾部未处于近战交战时触发全团伤害。不能仅据此确定哪位玩家离位。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1299206"
+            },
+            {
+              "seconds": 29.241,
+              "actor": "尾部",
+              "event": "尾部猛击 · 1299206",
+              "note": "精确时刻 29.241 秒。技能说明：尾部未处于近战交战时触发全团伤害。不能仅据此确定哪位玩家离位。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1299206"
+            },
+            {
+              "seconds": 25.21,
+              "actor": "黄色闪光",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.210 秒。死亡事件 25.211 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 25.207,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.207 秒。死亡事件 25.213 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 26.83,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · damage",
+              "note": "精确时刻 26.830 秒。死亡事件 26.869 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1307617"
+            },
+            {
+              "seconds": null,
+              "actor": "机制参考",
+              "event": "尾部猛击触发条件",
+              "note": "尾部未处于近战交战时，施放全团伤害技能。技能文字支持机制分类，不足以确定个人责任。",
+              "url": "https://www.wowhead.com/spell=1299206/rattler-slam"
+            }
+          ]
+        },
+        {
+          "id": "f18-first-losses",
+          "phase": "P1",
+          "title": "首批减员后的薄膜与持蛋伤害",
+          "players": [
+            "黄色闪光",
+            "小林历奇",
+            "Logwarlock"
+          ],
+          "conclusion": "26.869 秒 Logwarlock 死于剧毒之壳；27.217 秒派瑞星死于薄膜。首死后大量去壳不能算成功破蛋。",
+          "process": "以下列出最早 3 名不同玩家的死亡前直接伤害。重复死亡或后续收尾不另做失误次数。",
+          "nextAction": "先修首个异常，不把未确认喊灭边界的后续死亡逐人记过。",
+          "rule": "未获得可靠喊灭边界，本页不把全部末段死亡列为可归责失误。",
+          "evidence": [
+            {
+              "seconds": 25.21,
+              "actor": "黄色闪光",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.210 秒。死亡事件 25.211 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 25.207,
+              "actor": "小林历奇",
+              "event": "尾部猛击 · damage",
+              "note": "精确时刻 25.207 秒。死亡事件 25.213 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1299206"
+            },
+            {
+              "seconds": 26.83,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · damage",
+              "note": "精确时刻 26.830 秒。死亡事件 26.869 秒。最后一击是结果，不单独证明根因。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=damage-taken&ability=1307617"
+            },
+            {
+              "seconds": 40.585,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 40.585 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1299010"
+            },
+            {
+              "seconds": 43.41,
+              "actor": "幽魂盘卷",
+              "event": "盘卷结算 · 1299010",
+              "note": "精确时刻 43.410 秒。这是尾部盘卷结算施法；伤害为全团伤害，不能据伤害命中人数推定进圈人数。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1299010"
+            }
+          ]
+        },
+        {
+          "id": "f18-egg-chain",
+          "phase": "P1",
+          "title": "盘卷阶段不作为有效分担样本",
+          "players": [
+            "茗浩小宝贝",
+            "黄色闪光",
+            "吾王的荣耀",
+            "小林历奇",
+            "派瑞星",
+            "Logwarlock",
+            "先睡一会吧",
+            "大老板的猎手"
+          ],
+          "conclusion": "40.585 秒第一砸仅命中 2 名玩家（叫我小梅就好、白开掺可乐）；全场没有腐臭卵心应用。",
+          "process": "拾蛋记录与腐臭卵心结果分开展示；去壳本身可能由死亡等原因造成。",
+          "nextAction": "这场只用作起手尾部覆盖与早期减员复盘，不据此评价两组盘卷人数。",
+          "rule": "腐臭卵心不是腐臭薄膜。相邻于盘卷的事件不自动判作成功；无确定位置与触发原因时保留待核。",
+          "evidence": [
+            {
+              "seconds": 17.143,
+              "actor": "茗浩小宝贝",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 17.143 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 18.597,
+              "actor": "黄色闪光",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 18.597 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 20.096,
+              "actor": "吾王的荣耀",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 20.096 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 21.849,
+              "actor": "小林历奇",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 21.849 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 22.609,
+              "actor": "派瑞星",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 22.609 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 22.827,
+              "actor": "Logwarlock",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 22.827 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 24.135,
+              "actor": "先睡一会吧",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 24.135 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            },
+            {
+              "seconds": 25.912,
+              "actor": "大老板的猎手",
+              "event": "剧毒之壳 · applydebuff",
+              "note": "精确时刻 25.912 秒。拾取状态，只证明获得剧毒之壳，不证明成功破蛋。",
+              "url": "https://cn.warcraftlogs.com/reports/VGyBPpdQJ3LrcKj8#fight=18&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": 3,
+  "savedAt": "2026-11-11T00:05:33+08:00"
+}

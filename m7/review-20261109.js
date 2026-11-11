@@ -1,0 +1,47 @@
+/* 11/09 is isolated from historical rendering and never invents missing rows. */
+function initNov9(){
+ document.body.classList.add('nov9');
+ document.title=DATA.title+' · 11月9日';
+ $('pageTitle').textContent=DATA.title;
+ $('subtitle').textContent=DATA.subtitle;
+ $('intro').textContent=DATA.intro;
+ document.querySelector('.board-nav').innerHTML='<a href="#p3-soaks">01 · 分担</a><a href="#p3-orbs">02 · 绿紫球</a><a href="#p3-adds">03 · 套圈与打断</a><a href="#p3-resonance">04 · 恶毒共鸣</a><a href="#p3-rescue">05 · 救人</a>';
+ for(const id of ['ghost','circle','interrupt'])$(id).hidden=true;
+ $('ghost').insertAdjacentHTML('beforebegin',`<section id="p3-overview"><div class="nov9-scope"><strong>阅读范围</strong><p>${esc(DATA.scope)}</p></div><div class="nov9-priorities"><div><span>01</span><h2>分担落点站齐</h2><p>看结算位置的人数，区分点名移动和队伍没有跟到。</p></div><div><span>02</span><h2>重复分担先开免疫</h2><p>人数足够也会减员；第二次带易伤不能靠保护祝福。</p></div><div><span>03</span><h2>套圈看覆盖关系</h2><p>两圈破盾足够，检查是否额外盖到队友。</p></div></div></section><section id="p3-soaks"><div class="chapter"><span>02</span><h2>P3 · 两次分担</h2><p>先看本轮结果，再展开异常。P3 分担为暗影伤害，保护祝福和闪避不能替代有效免疫。</p></div><div id="nov9SoakTable"></div><div id="nov9SoakResults"></div></section><section id="nov9Coverage"><details class="nov9-coverage"><summary>数据范围与口径</summary><ul>${DATA.coverage.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul><p>伤害、易伤和免疫光环应联合判断参与。位置是异步采样，不能把边缘距离当成同帧精准测量。指挥语音不在战斗日志内。</p></details></section>`);
+ $('p3-soaks').querySelector('.chapter>span').textContent='01';
+ $('nov9Coverage').insertAdjacentHTML('beforebegin','<section id="p3-orbs"><div class="chapter"><span>02</span><h2>P3 · 绿紫球</h2><p>列出绿球、紫球每次实际携带者和效果起止；效果消失不单独代表放置正确。</p></div><div id="nov9OrbResults"></div></section><section id="p3-adds"><div class="chapter"><span>03</span><h2>套圈问题与 P3 大怪打断</h2><p>套圈已核查全场 P2 / P3，只列问题轮次。P3 每轮点名 4 人，只需 2 人清掉 1 只大怪的两层盾；点名名单不等于责任名单。</p></div><div id="nov9CircleTable"></div><div id="nov9CircleFailures"></div><div id="nov9CircleOverlaps"></div><div id="nov9InterruptResults"></div></section>');
+ $('nov9Coverage').insertAdjacentHTML('beforebegin','<section id="p3-resonance"><div class="chapter"><span>04</span><h2>P3 · 恶毒共鸣</h2><p>按鬼与鬼接触的经过复盘，受害者不自动记为责任人。</p></div><article class="fight"><h3>本次证据范围</h3><p>已逐把补查本报告进入 P3 的 11 场，本阶段没有恶毒共鸣对应技能的事件，不展开空白伤害链。P3 前的记录不混入。</p><p>有实际链条时，需要对齐鬼的锁定关系、接触位置与伤害。若由漏断后恐惧造成接触，归入漏断的后果，不再另判主动撞鬼。</p></article></section><section id="p3-rescue"><div class="chapter"><span>05</span><h2>P3 · 救人复盘</h2><p>只展开恐惧行军点名波次中未救出的人；已救出的不列。</p></div><article class="fight"><h3>本次证据范围</h3><p>已核对 WCL 6、9、10、20、23 的 5 波真实恐惧行军点名。15 次受控均完成救出，没有需要展开的未救出记录。</p><p>仅按实际施法波次统计，后续单独出现的受控不冒充新一轮点名。</p></article></section>');
+ $('footerText').textContent=DATA.footer;
+ $('query').placeholder='例如：Qui、分担、墓缚';
+ $('dateFilter').innerHTML=Object.entries(AUDIT_DATES).sort(([a],[b])=>b.localeCompare(a)).map(([date,meta])=>`<option value="${date}">${esc(meta.label)}</option>`).join('');
+ $('dateFilter').value=AUDIT_DATE;
+ $('dateFilter').addEventListener('change',()=>{const u=new URL(location.href);u.searchParams.set('date',$('dateFilter').value);u.hash='';location.assign(u.href);});
+ $('fightFilter').innerHTML='<option value="">全部已收录场次</option>'+DATA.fights.map(f=>`<option value="${f.id}">WCL ${f.id}</option>`).join('');
+ $('playerFilter').innerHTML='<option value="">全部玩家</option>'+Object.keys(DATA.roster).sort((a,b)=>a.localeCompare(b,'zh-CN')).map(n=>`<option value="${esc(n)}">${esc(n)}</option>`).join('');
+ for(const id of ['fightFilter','playerFilter','query'])$(id).addEventListener(id==='query'?'input':'change',renderNov9);
+ $('reset').addEventListener('click',()=>{for(const id of ['fightFilter','playerFilter','query'])$(id).value='';const u=new URL(location.href);u.hash='';u.searchParams.delete('fight');u.searchParams.delete('player');u.searchParams.delete('q');history.replaceState(null,'',u.href);renderNov9();});
+ const url=new URL(location.href); if(DATA.fights.some(f=>String(f.id)===url.searchParams.get('fight')))$('fightFilter').value=url.searchParams.get('fight'); if(Object.hasOwn(DATA.roster,url.searchParams.get('player')))$('playerFilter').value=url.searchParams.get('player');$('query').value=url.searchParams.get('q')||'';
+ renderNov9();
+}
+function nov9Accepts(x){const s=state();return(!s.fid||Number(s.fid)===x.fight)&&(!s.player||(x.players||[]).includes(s.player))&&(!s.q||JSON.stringify(x).toLowerCase().includes(s.q));}
+function nov9Link(fight,label='查看 WCL ↗'){return `<a href="https://cn.warcraftlogs.com/reports/${DATA.report}#fight=${fight}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;}
+function nov9Empty(text='此筛选范围没有已收录的记录。'){return '<p class="empty">'+esc(text)+'</p>';}
+function nov9Table(headers,rows){return `<div class="read-table-wrap"><table class="read-table nov9-table"><thead><tr>${headers.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')}</tr></thead><tbody>${rows.map(row=>'<tr>'+row.map((c,i)=>i?'<td>'+c+'</td>':'<th scope="row">'+c+'</th>').join('')+'</tr>').join('')}</tbody></table></div>`;}
+function renderNov9(){
+ const s=state(),soaks=DATA.soaks.filter(nov9Accepts),reviews=DATA.reviews.filter(nov9Accepts);
+ $('filterState').textContent=`当前查看：11月9日 · ${s.fid?'WCL '+s.fid:'全部已收录场次'} · ${s.player||'全部玩家'}${s.q?' · “'+s.q+'”':''}`;
+ $('playerFilter').style.color=COLORS[DATA.roster[s.player]]||'#1d2939';
+ $('nov9SoakTable').innerHTML=soaks.length?nov9Table(['场次 / 轮次','点名 / 落地','实际参与记录','免疫 / 减伤','结果'],soaks.map(r=>[nov9Link(r.fight,'WCL '+r.fight)+`<small>第 ${r.round} 次</small>`,`${r.marked?person(r.marked):'—'}<small>${esc(r.time||'')}</small>`,prose(r.participants),prose(r.defenses||'—'),`<span class="nov9-badge ${esc(r.kind)}">${r.kind==='success'?'通过':r.kind==='context'?'连锁事实':r.kind==='notReached'?'未到本轮':'异常'}</span><p>${prose(r.outcome)}</p>`])):nov9Empty();
+ $('nov9SoakResults').innerHTML=reviews.map(r=>`<article class="fight nov9-review ${r.kind==='context'?'nov9-context':''}" id="${esc(r.key)}"><div class="fightHead"><div><span class="eyebrow">WCL ${r.fight} · P3</span><h3>${esc(r.title)}</h3></div>${nov9Link(r.fight)}</div>${[['process','经过'],['result','结果'],['reminder',r.kind==='context'?'复盘边界':'下次怎么做']].map(([key,label])=>`<div class="copy-block ${key}"><h4>${label}</h4><p>${prose(r[key])}</p></div>`).join('')}<details class="nov9-evidence"><summary>核对依据</summary><p>${prose(r.evidenceText)}</p></details></article>`).join('')||nov9Empty(soaks.length?'本筛选范围仅有汇总记录，不另展开。':'本筛选范围没有异常详情。');
+ renderNov9Mechanics();formatDisplayedTimes();
+ const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let textNode;while((textNode=walker.nextNode())){if(textNode.parentElement?.closest('script,style,textarea'))continue;textNode.nodeValue=textNode.nodeValue.replace(/(\d+)\.\d+\s*秒/g,(_,n)=>Number(n)===0?'不足1秒':n+'秒');}
+}
+function renderNov9Mechanics(){
+ const s=state(),ms=DATA.mechanics.filter(m=>!s.fid||m.fight===Number(s.fid));
+ $('nov9OrbResults').innerHTML=ms.map(m=>{const rows=m.orbs.filter(nov9Accepts);if(!rows.length)return '';return `<details class="fight nov9-fight-details" ${s.fid||s.player||s.q?'open':''}><summary>WCL ${m.fight} · ${rows.length} 次携带记录</summary>${nov9Table(['球型','实际携带者','拾取','效果结束','结束记录'],rows.map(r=>[esc(r.color),person(r.player),esc(r.pickup),esc(r.end),esc(r.result)]))}</details>`;}).join('')||nov9Empty();
+ $('nov9CircleTable').innerHTML='';
+ $('nov9CircleFailures').innerHTML='';
+ const overlaps=(DATA.circleOverlaps||[]).filter(nov9Accepts);
+ $('nov9CircleOverlaps').innerHTML=(overlaps.length?'<h3 class="group-title">全场双圈、额外覆盖与残盾</h3><p class="abandoned">全报告 78 轮，发现 27 个问题轮。其中 5 轮共 9 人次双击并叠到 6 层墓缚；先列双击问题。覆盖关系结合命中与位置核对，不据此判断谁主动靠近。</p>':'')+overlaps.map(r=>`<article class="fight nov9-review" id="${esc(r.key)}"><div class="fightHead"><div><span class="eyebrow">WCL ${r.fight} · ${esc(r.phase)} 第 ${r.wave} 轮 · 全场第 ${r.wholeFightRound} 轮</span><h3>${esc(r.title)}</h3></div>${nov9Link(r.fight)}</div>${[['process','覆盖经过'],['result',r.shieldFailure?'大怪破盾结果':'实际后果'],['reminder','复盘结论']].filter(([key])=>r[key]).map(([key,label])=>`<div class="copy-block ${key}"><h4>${label}</h4><p>${prose(r[key])}</p></div>`).join('')}${r.victimRows?.length?nov9Table(['覆盖关系（非移动责任）','实际命中 / 墓缚','回收与后果'],r.victimRows.map(v=>[prose(v.coverage)+`<small>约 ${esc(v.distance)}</small>`,`${v.hits} 次 · ${esc(v.grave)}`,prose(v.result)])):''}<details class="nov9-evidence"><summary>核对依据</summary><p>本轮点名：${(r.marks||[]).map(person).join('、')}。点名不是责任名单。</p><p>${prose(r.evidenceText)}</p></details></article>`).join('');
+ $('nov9InterruptResults').innerHTML='<h3 class="group-title">P3 大怪漏断</h3>'+ (ms.filter(m=>m.missed.length).map(m=>{const rows=m.reads.filter(nov9Accepts);if(!rows.length)return '';const success=rows.filter(r=>r.result==='成功打断');const ended=rows.filter(r=>r.result.includes('死亡'));const abnormal=m.missed.length>0;return `<article class="fight"><div class="fightHead"><h3>WCL ${m.fight} · 1 只大怪</h3>${nov9Link(m.fight)}</div><p>${s.player?'筛选记录中：':''}${success.length} 次成功打断${ended.length?'，'+ended.length+' 次读条随怪死亡结束':''}${abnormal?'；'+m.missed.map(t=>esc(t)).join('、')+' 读完恐惧哀嚎':'，没有读完恐惧哀嚎'}。</p>${abnormal?'<p class="nov9-callout">漏断之前已有前置减员。这里保留实际读条顺序；从本次漏断起，后续连锁不再另记独立执行责任。</p>':''}<details class="nov9-evidence" ${abnormal?'open':''}><summary>实际打断顺序</summary>${nov9Table(['条数','开始','结算','实际执行者','结果'],rows.map(r=>['第 '+r.ordinal+' 条',esc(r.start),esc(r.end),prose(r.who||'—'),esc(r.result)]))}</details></article>`;}).join('')||nov9Empty('此筛选范围没有已收录的大怪漏断问题。'));
+}

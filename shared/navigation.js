@@ -1,0 +1,1 @@
+(() => { const nav = document.getElementById('raid-global-nav'); if (!nav) return; const title = nav.dataset.siteTitle; if (!document.title.startsWith('团本活动复盘')) document.title = '团本活动复盘 · ' + document.title; if (title && document.title === '团本活动复盘') document.title = title; })();
