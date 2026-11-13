@@ -13,7 +13,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const C={Warrior:'#C69B6D',Paladin:'#F48CBA',Hunter:'#AAD372',Rogue:'#b29a21',Priest:'#8b8f91',DeathKnight:'#C41E3A',Shaman:'#0070DD',Mage:'#3FC7EB',Warlock:'#8788EE',Druid:'#FF7C0A',DemonHunter:'#A330C9',Monk:'#00bc81',Evoker:'#33937F'};
 const name=id=>D.roster[id]?.name||String(id),color=id=>C[D.roster[id]?.class]||'#56786a';
 const clock=t=>{let s=Math.max(0,Math.floor(t/1000));return `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`};
-const exact=t=>clock(t)+'.'+String(Math.round(t)%1000).padStart(3,'0');
+const exact=t=>clock(t);
 const delta=t=>t===0?'同刻实测':`${t>0?'后':'前'} ${Math.abs(t)} 毫秒采样`;
 let f,t=0,playing=false,lastFrame=0,mode='key',selected=null,focus='',zoom=1,pan={x:0,y:0},drag=null,hideTimer=0,events=[],lifeEvents=[],start=0;
 let bounds={left:0,top:0,size:1};
@@ -45,7 +45,7 @@ function title(){const e=selected;$('eventTitle').textContent=e?textEvent(e):`�
 }
 function renderList(){const shown=events.filter(e=>(mode==='pickup'?e.kind==='pickup':mode==='key'?(['spawn','collision','wave','coil'].includes(e.kind)||e.groundEgg):!['splash'].includes(e.kind))&&(!focus||e.actors.includes(Number(focus))||e.kind==='spawn'));$('count').textContent=shown.length+' 条';$('eventList').innerHTML=shown.map(e=>`<button class="event-row${e===selected?' active':''}" data-event="${e.key}" type="button"><time>${clock(e.t)}</time><span><b>${esc(textEvent(e))}</b><small>${exact(e.t)}</small></span></button>`).join('')||'<p class="event-empty">当前筛选：0 条事件</p>';}
 function loadFight(id,eventKey='',player=''){
- setPlay(false);f=D.fights.find(x=>x.id===Number(id))||D.fights[2];start=f.waves[0].start;t=start;
+ setPlay(false);f=D.fights.find(x=>x.id===Number(id))||D.fights[2];start=f.waves[0]?.start||0;t=start;
  // Reincarnation is a successful self-resurrection cast, not a WCL resurrect row.
  const reincarnations=Object.entries(f.tracks).flatMap(([actor,points])=>D.roster[actor]?.class==='Shaman'?points.filter(p=>p[4]===21169&&p[5]==='cast'&&p[6]===1).map(p=>({actor:Number(actor),t:p[0],state:'alive',basis:'reincarnation_cast',sourceLine:p[3]})):[]);
  lifeEvents=[...f.life,...reincarnations].sort((a,b)=>a.t-b.t);focus=f.players.includes(Number(player))?String(player):'';events=f.timeline.map((e,i)=>({...e,key:String(i)}));

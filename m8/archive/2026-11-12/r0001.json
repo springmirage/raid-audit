@@ -1,0 +1,3542 @@
+{
+  "date": "2026-11-12",
+  "summary": "本晚36把均在P1，尚未打到一心。按日志逐次整理背蛋异常与每轮实际拿蛋记录。",
+  "fights": [
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 1,
+      "label": "第 1 把 · F1",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1",
+      "reachedPhase": "P1",
+      "durationSeconds": 62.778,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock、吾王的荣耀碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "Logwarlock",
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 38.537,
+              "actor": "Logwarlock",
+              "event": "0:22 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307635"
+            },
+            {
+              "seconds": 38.537,
+              "actor": "吾王的荣耀",
+              "event": "0:24 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "黄色闪光、茗浩小宝贝碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "黄色闪光",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 39.394,
+              "actor": "黄色闪光",
+              "event": "0:22 拿蛋 → 0:39 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307635"
+            },
+            {
+              "seconds": 39.394,
+              "actor": "茗浩小宝贝",
+              "event": "0:31 拿蛋 → 0:39 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 40.486,
+              "actor": "Qui",
+              "event": "0:27 拿蛋 → 0:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 40.59,
+              "actor": "小林历奇",
+              "event": "0:29 拿蛋 → 0:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=1&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 2,
+      "label": "第 2 把 · F2",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=2",
+      "reachedPhase": "P1",
+      "durationSeconds": 65.368,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 38.959,
+              "actor": "吾王的荣耀",
+              "event": "0:20 拿蛋 → 0:38 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=2&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 38.96,
+              "actor": "Logwarlock",
+              "event": "0:30 拿蛋 → 0:38 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=2&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 40.034,
+              "actor": "黄色闪光",
+              "event": "0:17 拿蛋 → 0:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=2&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 40.583,
+              "actor": "小林历奇",
+              "event": "0:25 拿蛋 → 0:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=2&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 3,
+      "label": "第 3 把 · F3",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=3",
+      "reachedPhase": "P1",
+      "durationSeconds": 87.985,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "大老板的猎手：背蛋掉入台外毒水",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋掉入台外毒水，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 39.375,
+              "actor": "大老板的猎手",
+              "event": "0:33 拿蛋 → 0:39 背蛋掉入台外毒水。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=3&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:26 ×3、1:27 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 4,
+      "label": "第 4 把 · F4",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=4",
+      "reachedPhase": "P1",
+      "durationSeconds": 108.912,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:26 ×2、1:27 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 酸液爆发。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 93.116,
+              "actor": "小林历奇",
+              "event": "1:31 拿蛋 → 1:33 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=4&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 99.648,
+              "actor": "吾王的荣耀",
+              "event": "1:35 拿蛋 → 1:39 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=4&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "Qui：背蛋掉入台外毒水",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋掉入台外毒水，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 101.287,
+              "actor": "Qui",
+              "event": "1:35 拿蛋 → 1:41 背蛋掉入台外毒水。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=4&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 5,
+      "label": "第 5 把 · F5",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5",
+      "reachedPhase": "P1",
+      "durationSeconds": 116.807,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 104.246,
+              "actor": "黄色闪光",
+              "event": "1:34 拿蛋 → 1:44 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 104.249,
+              "actor": "Logwarlock",
+              "event": "1:34 拿蛋 → 1:44 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 104.249,
+              "actor": "小林历奇",
+              "event": "1:35 拿蛋 → 1:44 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 105.263,
+              "actor": "茗浩小宝贝",
+              "event": "1:42 拿蛋 → 1:45 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "Mitsuri：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Mitsuri死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "Mitsuri"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 105.523,
+              "actor": "Mitsuri",
+              "event": "1:42 拿蛋 → 1:45 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.003,
+              "actor": "吾王的荣耀",
+              "event": "1:36 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=5&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 6,
+      "label": "第 6 把 · F6",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6",
+      "reachedPhase": "P1",
+      "durationSeconds": 124.004,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "小林历奇、Qui碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "小林历奇",
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 105.611,
+              "actor": "小林历奇",
+              "event": "1:35 拿蛋 → 1:45 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307635"
+            },
+            {
+              "seconds": 105.611,
+              "actor": "Qui",
+              "event": "1:38 拿蛋 → 1:45 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.022,
+              "actor": "吾王的荣耀",
+              "event": "1:35 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.022,
+              "actor": "黄色闪光",
+              "event": "1:43 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.64,
+              "actor": "大老板的猎手",
+              "event": "1:42 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "韶光逍珑：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "韶光逍珑死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 107.851,
+              "actor": "韶光逍珑",
+              "event": "1:47 拿蛋 → 1:47 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 108.083,
+              "actor": "茗浩小宝贝",
+              "event": "1:40 拿蛋 → 1:48 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 110.017,
+              "actor": "先睡一会吧",
+              "event": "1:45 拿蛋 → 1:50 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=6&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 7,
+      "label": "第 7 把 · F7",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=7",
+      "reachedPhase": "P1",
+      "durationSeconds": 102.983,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:25 ×2、1:26 ×2 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 95.537,
+              "actor": "吾王的荣耀",
+              "event": "1:30 拿蛋 → 1:35 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=7&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 8,
+      "label": "第 8 把 · F8",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=8",
+      "reachedPhase": "P1",
+      "durationSeconds": 113.01,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "茗浩小宝贝与先睡一会吧靠近，茗浩小宝贝的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约2.2码的相邻位置；茗浩小宝贝触发剧毒飞溅并掉壳。",
+          "players": [
+            "茗浩小宝贝",
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 36.446,
+              "actor": "茗浩小宝贝",
+              "event": "0:21 拿蛋 → 0:36 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=8&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:27、1:28 ×2、1:29、1:30 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "丨天灾丨牧师：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "丨天灾丨牧师死亡时仍持有蛋，随后孵化；致死技能为 酸液爆发。",
+          "players": [
+            "丨天灾丨牧师"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 96.686,
+              "actor": "丨天灾丨牧师",
+              "event": "1:29 拿蛋 → 1:36 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=8&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 10,
+      "label": "第 9 把 · F10",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=10",
+      "reachedPhase": "P1",
+      "durationSeconds": 79.226,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光、先睡一会吧碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "黄色闪光",
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 25.752,
+              "actor": "黄色闪光",
+              "event": "0:18 拿蛋 → 0:25 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=10&type=events&ability=1307635"
+            },
+            {
+              "seconds": 25.752,
+              "actor": "先睡一会吧",
+              "event": "0:24 拿蛋 → 0:25 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=10&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "茗浩小宝贝、Logwarlock碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "茗浩小宝贝",
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 41.025,
+              "actor": "茗浩小宝贝",
+              "event": "0:21 拿蛋 → 0:41 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=10&type=events&ability=1307635"
+            },
+            {
+              "seconds": 41.025,
+              "actor": "Logwarlock",
+              "event": "0:27 拿蛋 → 0:41 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=10&type=events&ability=1307635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 11,
+      "label": "第 10 把 · F11",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11",
+      "reachedPhase": "P1",
+      "durationSeconds": 133.004,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.002,
+              "actor": "Logwarlock",
+              "event": "1:29 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "剑二十三丶：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "剑二十三丶死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "剑二十三丶"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 108.215,
+              "actor": "剑二十三丶",
+              "event": "1:29 拿蛋 → 1:48 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Qui触发剧毒飞溅",
+          "conclusion": "本次记录到一颗蛋异常孵化。",
+          "process": "Qui持蛋期间触发剧毒飞溅，随后掉壳并新增薄膜。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 108.293,
+              "actor": "Qui",
+              "event": "1:42 拿蛋 → 1:48 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 109.006,
+              "actor": "吾王的荣耀",
+              "event": "1:47 拿蛋 → 1:49 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 114.055,
+              "actor": "黄色闪光",
+              "event": "1:31 拿蛋 → 1:54 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "小林历奇：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.096,
+              "actor": "小林历奇",
+              "event": "1:33 拿蛋 → 1:59 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 121.43,
+              "actor": "先睡一会吧",
+              "event": "1:40 拿蛋 → 2:01 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-8",
+          "phase": "P1",
+          "title": "韶光逍珑：背蛋掉入台外毒水",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋掉入台外毒水，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 124.289,
+              "actor": "韶光逍珑",
+              "event": "1:51 拿蛋 → 2:04 背蛋掉入台外毒水。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=11&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 12,
+      "label": "第 11 把 · F12",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=12",
+      "reachedPhase": "P1",
+      "durationSeconds": 99.999,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:28 ×2、1:29 ×3、1:31 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 13,
+      "label": "第 12 把 · F13",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=13",
+      "reachedPhase": "P1",
+      "durationSeconds": 106.42,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 100.176,
+              "actor": "吾王的荣耀",
+              "event": "1:35 拿蛋 → 1:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=13&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 100.5,
+              "actor": "Qui",
+              "event": "1:29 拿蛋 → 1:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=13&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 100.508,
+              "actor": "先睡一会吧",
+              "event": "1:36 拿蛋 → 1:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=13&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 100.509,
+              "actor": "茗浩小宝贝",
+              "event": "1:37 拿蛋 → 1:40 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=13&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 14,
+      "label": "第 13 把 · F14",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=14",
+      "reachedPhase": "P1",
+      "durationSeconds": 90.01,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "先睡一会吧触发剧毒飞溅",
+          "conclusion": "本次记录到一颗蛋异常孵化。",
+          "process": "先睡一会吧持蛋期间触发剧毒飞溅，随后掉壳并新增薄膜。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 30.858,
+              "actor": "先睡一会吧",
+              "event": "0:17 拿蛋 → 0:30 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=14&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:26、1:27 ×2、1:29 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 15,
+      "label": "第 14 把 · F15",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=15",
+      "reachedPhase": "P1",
+      "durationSeconds": 71.0,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "0:16 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "剑二十三丶、Logwarlock碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "剑二十三丶",
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 38.793,
+              "actor": "剑二十三丶",
+              "event": "0:19 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=15&type=events&ability=1307635"
+            },
+            {
+              "seconds": 38.793,
+              "actor": "Logwarlock",
+              "event": "0:23 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=15&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "小林历奇：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 43.346,
+              "actor": "小林历奇",
+              "event": "0:16 拿蛋 → 0:43 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=15&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 16,
+      "label": "第 15 把 · F16",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16",
+      "reachedPhase": "P1",
+      "durationSeconds": 141.003,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.064,
+              "actor": "黄色闪光",
+              "event": "1:29 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 108.094,
+              "actor": "吾王的荣耀",
+              "event": "1:27 拿蛋 → 1:48 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 109.08,
+              "actor": "Logwarlock",
+              "event": "1:48 拿蛋 → 1:49 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "莉姆：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "莉姆死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "莉姆"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 110.053,
+              "actor": "莉姆",
+              "event": "1:36 拿蛋 → 1:50 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.183,
+              "actor": "Qui",
+              "event": "1:36 拿蛋 → 1:59 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 124.364,
+              "actor": "先睡一会吧",
+              "event": "1:42 拿蛋 → 2:04 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 126.099,
+              "actor": "大老板的猎手",
+              "event": "1:50 拿蛋 → 2:06 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-8",
+          "phase": "P1",
+          "title": "丨天灾丨牧师：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "丨天灾丨牧师死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "丨天灾丨牧师"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 128.634,
+              "actor": "丨天灾丨牧师",
+              "event": "1:33 拿蛋 → 2:08 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=16&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 17,
+      "label": "第 16 把 · F17",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=17",
+      "reachedPhase": "P1",
+      "durationSeconds": 71.892,
+      "reviews": []
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 18,
+      "label": "第 17 把 · F18",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18",
+      "reachedPhase": "P1",
+      "durationSeconds": 150.009,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 121.06,
+              "actor": "黄色闪光",
+              "event": "1:30 拿蛋 → 2:01 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.447,
+              "actor": "Qui",
+              "event": "1:26 拿蛋 → 2:02 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "先睡一会吧：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 131.327,
+              "actor": "先睡一会吧",
+              "event": "1:31 拿蛋 → 2:11 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 133.38,
+              "actor": "大老板的猎手",
+              "event": "1:54 拿蛋 → 2:13 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "叫我小梅就好：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "叫我小梅就好"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 133.41,
+              "actor": "叫我小梅就好",
+              "event": "1:38 拿蛋 → 2:13 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "韶光逍珑：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "韶光逍珑死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.126,
+              "actor": "韶光逍珑",
+              "event": "1:56 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.377,
+              "actor": "吾王的荣耀",
+              "event": "1:49 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-8",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 135.459,
+              "actor": "Logwarlock",
+              "event": "1:50 拿蛋 → 2:15 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=18&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 19,
+      "label": "第 18 把 · F19",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=19",
+      "reachedPhase": "P1",
+      "durationSeconds": 98.144,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "先睡一会吧、茗浩小宝贝碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "先睡一会吧",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 42.621,
+              "actor": "先睡一会吧",
+              "event": "0:20 拿蛋 → 0:42 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=19&type=events&ability=1307635"
+            },
+            {
+              "seconds": 42.621,
+              "actor": "茗浩小宝贝",
+              "event": "0:31 拿蛋 → 0:42 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=19&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:26、1:27 ×2、1:28 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 20,
+      "label": "第 19 把 · F20",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20",
+      "reachedPhase": "P1",
+      "durationSeconds": 141.126,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀、黄色闪光碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "吾王的荣耀",
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 114.21,
+              "actor": "吾王的荣耀",
+              "event": "1:40 拿蛋 → 1:54 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307635"
+            },
+            {
+              "seconds": 114.21,
+              "actor": "黄色闪光",
+              "event": "1:42 拿蛋 → 1:54 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "韶光逍珑：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 121.089,
+              "actor": "韶光逍珑",
+              "event": "1:55 拿蛋 → 2:01 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 125.083,
+              "actor": "Logwarlock",
+              "event": "1:54 拿蛋 → 2:05 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 128.193,
+              "actor": "Qui",
+              "event": "0:34 拿蛋 → 2:08 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 132.256,
+              "actor": "先睡一会吧",
+              "event": "1:37 拿蛋 → 2:12 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "大老板的猎手：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 132.719,
+              "actor": "大老板的猎手",
+              "event": "1:51 拿蛋 → 2:12 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 132.989,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 2:12 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-8",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 140.881,
+              "actor": "茗浩小宝贝",
+              "event": "1:48 拿蛋 → 2:20 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=20&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 21,
+      "label": "第 20 把 · F21",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=21",
+      "reachedPhase": "P1",
+      "durationSeconds": 54.366,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui、小林历奇碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "Qui",
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 32.259,
+              "actor": "Qui",
+              "event": "0:20 拿蛋 → 0:32 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=21&type=events&ability=1307635"
+            },
+            {
+              "seconds": 32.259,
+              "actor": "小林历奇",
+              "event": "0:29 拿蛋 → 0:32 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=21&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "0:41 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 22,
+      "label": "第 21 把 · F22",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=22",
+      "reachedPhase": "P1",
+      "durationSeconds": 71.997,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui与先睡一会吧靠近，Qui的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约2.5码的相邻位置；Qui触发剧毒飞溅并掉壳。",
+          "players": [
+            "Qui",
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 30.367,
+              "actor": "Qui",
+              "event": "0:20 拿蛋 → 0:30 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=22&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 23,
+      "label": "第 22 把 · F23",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23",
+      "reachedPhase": "P1",
+      "durationSeconds": 133.459,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀与Qui靠近，吾王的荣耀的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约1.0码的相邻位置；吾王的荣耀触发剧毒飞溅并掉壳。",
+          "players": [
+            "吾王的荣耀",
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 100.747,
+              "actor": "吾王的荣耀",
+              "event": "1:39 拿蛋 → 1:40 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 103.112,
+              "actor": "Qui",
+              "event": "1:36 拿蛋 → 1:43 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 114.002,
+              "actor": "Logwarlock",
+              "event": "1:49 拿蛋 → 1:54 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 罩子大怪爆炸。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 114.916,
+              "actor": "黄色闪光",
+              "event": "1:51 拿蛋 → 1:54 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "剑二十三丶：背蛋掉入台外毒水",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋掉入台外毒水，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "剑二十三丶"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.616,
+              "actor": "剑二十三丶",
+              "event": "1:27 拿蛋 → 1:57 背蛋掉入台外毒水。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "茗浩小宝贝：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.182,
+              "actor": "茗浩小宝贝",
+              "event": "1:52 拿蛋 → 1:59 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 酸液爆发。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 125.964,
+              "actor": "先睡一会吧",
+              "event": "1:30 拿蛋 → 2:05 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=23&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 24,
+      "label": "第 23 把 · F24",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=24",
+      "reachedPhase": "P1",
+      "durationSeconds": 162.898,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光、吾王的荣耀碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "黄色闪光",
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.168,
+              "actor": "黄色闪光",
+              "event": "1:34 拿蛋 → 2:10 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=24&type=events&ability=1307635"
+            },
+            {
+              "seconds": 130.168,
+              "actor": "吾王的荣耀",
+              "event": "1:36 拿蛋 → 2:10 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=24&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Qui：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Qui死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 133.703,
+              "actor": "Qui",
+              "event": "1:53 拿蛋 → 2:13 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=24&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 25,
+      "label": "第 24 把 · F25",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25",
+      "reachedPhase": "P1",
+      "durationSeconds": 142.621,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 105.985,
+              "actor": "吾王的荣耀",
+              "event": "1:33 拿蛋 → 1:45 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "大老板的猎手与Elsa靠近，大老板的猎手的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约1.8码的相邻位置；大老板的猎手触发剧毒飞溅并掉壳。",
+          "players": [
+            "大老板的猎手",
+            "Elsa"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 116.881,
+              "actor": "大老板的猎手",
+              "event": "1:54 拿蛋 → 1:56 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:59 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "Elsa：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Elsa"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.824,
+              "actor": "Elsa",
+              "event": "1:55 拿蛋 → 2:10 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "韶光逍珑：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "韶光逍珑死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 135.063,
+              "actor": "韶光逍珑",
+              "event": "1:54 拿蛋 → 2:15 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 135.346,
+              "actor": "小林历奇",
+              "event": "1:53 拿蛋 → 2:15 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 135.347,
+              "actor": "茗浩小宝贝",
+              "event": "1:52 拿蛋 → 2:15 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=25&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 26,
+      "label": "第 25 把 · F26",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26",
+      "reachedPhase": "P1",
+      "durationSeconds": 142.921,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.359,
+              "actor": "吾王的荣耀",
+              "event": "1:29 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "茗浩小宝贝：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 118.674,
+              "actor": "茗浩小宝贝",
+              "event": "1:52 拿蛋 → 1:58 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "黄色闪光、莉姆碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "黄色闪光",
+            "莉姆"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 120.045,
+              "actor": "黄色闪光",
+              "event": "1:30 拿蛋 → 2:00 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307635"
+            },
+            {
+              "seconds": 120.045,
+              "actor": "莉姆",
+              "event": "1:39 拿蛋 → 2:00 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 127.871,
+              "actor": "大老板的猎手",
+              "event": "1:52 拿蛋 → 2:07 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 129.17,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 2:09 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 129.347,
+              "actor": "Logwarlock",
+              "event": "1:52 拿蛋 → 2:09 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 131.972,
+              "actor": "先睡一会吧",
+              "event": "1:49 拿蛋 → 2:11 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=26&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 27,
+      "label": "第 26 把 · F27",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=27",
+      "reachedPhase": "P1",
+      "durationSeconds": 162.631,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "丨天灾丨牧师：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "丨天灾丨牧师"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 120.566,
+              "actor": "丨天灾丨牧师",
+              "event": "1:42 拿蛋 → 2:00 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=27&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 132.48,
+              "actor": "吾王的荣耀",
+              "event": "1:33 拿蛋 → 2:12 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=27&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.645,
+              "actor": "茗浩小宝贝",
+              "event": "1:53 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=27&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 28,
+      "label": "第 27 把 · F28",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28",
+      "reachedPhase": "P1",
+      "durationSeconds": 133.997,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.022,
+              "actor": "黄色闪光",
+              "event": "1:27 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀、丨天灾丨牧师碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "吾王的荣耀",
+            "丨天灾丨牧师"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.074,
+              "actor": "吾王的荣耀",
+              "event": "1:31 拿蛋 → 1:46 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307635"
+            },
+            {
+              "seconds": 106.074,
+              "actor": "丨天灾丨牧师",
+              "event": "1:32 拿蛋 → 1:46 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 背蛋持续伤害。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 116.11,
+              "actor": "Logwarlock",
+              "event": "1:51 拿蛋 → 1:56 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "韶光逍珑：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "韶光逍珑"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.207,
+              "actor": "韶光逍珑",
+              "event": "1:53 拿蛋 → 1:59 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "小林历奇：背蛋掉入台外毒水",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋掉入台外毒水，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.523,
+              "actor": "小林历奇",
+              "event": "1:49 拿蛋 → 2:02 背蛋掉入台外毒水。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 126.079,
+              "actor": "大老板的猎手",
+              "event": "1:53 拿蛋 → 2:06 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "茗浩小宝贝：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "茗浩小宝贝死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 132.021,
+              "actor": "茗浩小宝贝",
+              "event": "1:50 拿蛋 → 2:12 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=28&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 29,
+      "label": "第 28 把 · F29",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29",
+      "reachedPhase": "P1",
+      "durationSeconds": 146.991,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.065,
+              "actor": "黄色闪光",
+              "event": "1:30 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "茗浩小宝贝：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 120.128,
+              "actor": "茗浩小宝贝",
+              "event": "1:50 拿蛋 → 2:00 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.695,
+              "actor": "Qui",
+              "event": "1:55 拿蛋 → 2:02 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "吾王的荣耀：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.696,
+              "actor": "吾王的荣耀",
+              "event": "1:32 拿蛋 → 2:02 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 123.101,
+              "actor": "Logwarlock",
+              "event": "1:48 拿蛋 → 2:03 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "以血为生：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "以血为生"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 131.67,
+              "actor": "以血为生",
+              "event": "1:44 拿蛋 → 2:11 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.311,
+              "actor": "先睡一会吧",
+              "event": "1:50 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-8",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.311,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=29&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 30,
+      "label": "第 29 把 · F30",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30",
+      "reachedPhase": "P1",
+      "durationSeconds": 147.951,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "小林历奇与茗浩小宝贝靠近，小林历奇的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约2.3码的相邻位置；小林历奇触发剧毒飞溅并掉壳。",
+          "players": [
+            "小林历奇",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 112.505,
+              "actor": "小林历奇",
+              "event": "1:51 拿蛋 → 1:52 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.012,
+              "actor": "Logwarlock",
+              "event": "1:47 拿蛋 → 1:57 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:57 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "吾王的荣耀：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 120.355,
+              "actor": "吾王的荣耀",
+              "event": "1:29 拿蛋 → 2:00 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 129.739,
+              "actor": "先睡一会吧",
+              "event": "1:49 拿蛋 → 2:09 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "茗浩小宝贝、大老板的猎手碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "茗浩小宝贝",
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.577,
+              "actor": "茗浩小宝贝",
+              "event": "1:49 拿蛋 → 2:10 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307635"
+            },
+            {
+              "seconds": 130.577,
+              "actor": "大老板的猎手",
+              "event": "1:50 拿蛋 → 2:10 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 大怪狂怒。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.627,
+              "actor": "黄色闪光",
+              "event": "1:32 拿蛋 → 2:14 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=30&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 31,
+      "label": "第 30 把 · F31",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31",
+      "reachedPhase": "P1",
+      "durationSeconds": 147.988,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光与茗浩小宝贝靠近，黄色闪光的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约1.0码的相邻位置；黄色闪光触发剧毒飞溅并掉壳。",
+          "players": [
+            "黄色闪光",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 29.96,
+              "actor": "黄色闪光",
+              "event": "0:21 拿蛋 → 0:29 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 恶臭痛击。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.028,
+              "actor": "吾王的荣耀",
+              "event": "1:34 拿蛋 → 1:46 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "小林历奇：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 118.804,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 1:58 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "茗浩小宝贝、Qui碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "茗浩小宝贝",
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.304,
+              "actor": "茗浩小宝贝",
+              "event": "1:52 拿蛋 → 1:59 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307635"
+            },
+            {
+              "seconds": 119.304,
+              "actor": "Qui",
+              "event": "1:53 拿蛋 → 1:59 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "先睡一会吧：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.221,
+              "actor": "先睡一会吧",
+              "event": "1:50 拿蛋 → 2:02 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 128.017,
+              "actor": "大老板的猎手",
+              "event": "1:49 拿蛋 → 2:08 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=31&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 32,
+      "label": "第 31 把 · F32",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32",
+      "reachedPhase": "P1",
+      "durationSeconds": 139.003,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀、剑二十三丶碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "吾王的荣耀",
+            "剑二十三丶"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 113.785,
+              "actor": "吾王的荣耀",
+              "event": "1:32 拿蛋 → 1:53 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307635"
+            },
+            {
+              "seconds": 113.785,
+              "actor": "剑二十三丶",
+              "event": "1:35 拿蛋 → 1:53 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 116.839,
+              "actor": "Qui",
+              "event": "1:51 拿蛋 → 1:56 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "Logwarlock：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.866,
+              "actor": "Logwarlock",
+              "event": "1:51 拿蛋 → 1:57 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "先睡一会吧：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "先睡一会吧死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 122.792,
+              "actor": "先睡一会吧",
+              "event": "1:39 拿蛋 → 2:02 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 129.824,
+              "actor": "黄色闪光",
+              "event": "1:33 拿蛋 → 2:09 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-6",
+          "phase": "P1",
+          "title": "大老板的猎手：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "大老板的猎手死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "大老板的猎手"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.822,
+              "actor": "大老板的猎手",
+              "event": "1:51 拿蛋 → 2:10 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-7",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 腐臭薄膜。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 131.798,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 2:11 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=32&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 33,
+      "label": "第 32 把 · F33",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=33",
+      "reachedPhase": "P1",
+      "durationSeconds": 151.68,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.04,
+              "actor": "Qui",
+              "event": "1:52 拿蛋 → 1:57 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=33&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:57 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-3",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 死疽蒸汽。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.997,
+              "actor": "黄色闪光",
+              "event": "1:31 拿蛋 → 2:10 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=33&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-4",
+          "phase": "P1",
+          "title": "先睡一会吧：背蛋吃毒波",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "背蛋吃毒波，同批记录到掉壳及薄膜新增。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 136.904,
+              "actor": "先睡一会吧",
+              "event": "1:51 拿蛋 → 2:16 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=33&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "egg-5",
+          "phase": "P1",
+          "title": "小林历奇：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "小林历奇死亡时仍持有蛋，随后孵化；致死技能为 近战攻击。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 137.122,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 2:17 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=33&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 34,
+      "label": "第 33 把 · F34",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=34",
+      "reachedPhase": "P1",
+      "durationSeconds": 104.03,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "新增薄膜记录",
+          "conclusion": "同批没有对应持蛋者脱壳，回放保留薄膜新增时点。",
+          "process": "1:26 ×2、1:27 ×2 新增薄膜，未与持蛋者掉壳事件重合。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "egg-2",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡后孵化",
+          "conclusion": "同批记录到薄膜新增。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 蛇母之怒。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 97.492,
+              "actor": "黄色闪光",
+              "event": "1:36 拿蛋 → 1:37 持蛋死亡后孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=34&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 35,
+      "label": "第 34 把 · F35",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=35",
+      "reachedPhase": "P1",
+      "durationSeconds": 77.542,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui、茗浩小宝贝碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "Qui",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 38.151,
+              "actor": "Qui",
+              "event": "0:20 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=35&type=events&ability=1307635"
+            },
+            {
+              "seconds": 38.151,
+              "actor": "茗浩小宝贝",
+              "event": "0:30 拿蛋 → 0:38 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=35&type=events&ability=1307635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 36,
+      "label": "第 35 把 · F36",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=36",
+      "reachedPhase": "P1",
+      "durationSeconds": 100.005,
+      "reviews": []
+    },
+    {
+      "reportCode": "BzkQJdKW4x3vwDG2",
+      "fightId": 37,
+      "label": "第 36 把 · F37",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=37",
+      "reachedPhase": "P1",
+      "durationSeconds": 101.039,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui与先睡一会吧靠近，Qui的蛋孵化",
+          "conclusion": "本次只记录到一颗蛋异常孵化，新增一层薄膜。",
+          "process": "双方持蛋期间记录到约2.2码的相邻位置；Qui触发剧毒飞溅并掉壳。",
+          "players": [
+            "Qui",
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 41.083,
+              "actor": "Qui",
+              "event": "0:20 拿蛋 → 0:41 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/BzkQJdKW4x3vwDG2#fight=37&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": 1,
+  "savedAt": "2026-11-13T10:31:13+08:00"
+}
