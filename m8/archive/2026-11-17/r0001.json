@@ -1,0 +1,1080 @@
+{
+  "date": "2026-11-17",
+  "summary": "本晚30把，6把进入P2。P1两轮搬蛋逐场核对，以下按时间展示每把首个异常及完整回放。",
+  "fights": [
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 1,
+      "label": "第1把 · F1",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=1",
+      "reachedPhase": "P1",
+      "durationSeconds": 132.99,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 恶臭挥击。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.017,
+              "actor": "Logwarlock",
+              "event": "1:39 拿蛋 → 1:46 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=1&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "2:12，乌拉特克本体首次记录到无羁之怒；此前记录 19 次真实死亡事件。 当时已阵亡坦克：以血为生、派瑞星。",
+          "process": "1:40 尾巴 → 以血为生 近战命中。；2:00 Kersen 死亡。；2:01 毛豆豆毛 死亡。；2:02 深蓝色蒋洪福 死亡。；2:03 剑二十三丶 死亡。；2:04 先睡一会吧 死亡。；2:05 派瑞星 死亡。；2:08 韶光逍珑 死亡。；2:09 乌拉特克本体 → 以血为生 近战命中。；2:10 Mitsuri 死亡。；2:10 黄色闪光 死亡。；2:11 茗浩小宝贝 死亡。；2:11 白开掺可乐 死亡。；2:12 以血为生 死亡。；2:12 乌拉特克本体 → Environment 施放无羁之怒。；2:12 Qui 死亡。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 2,
+      "label": "第2把 · F2",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=2",
+      "reachedPhase": "P1",
+      "durationSeconds": 89.975,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "先睡一会吧：背蛋靠近触发剧毒飞溅",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋靠近触发剧毒飞溅，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "先睡一会吧"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 35.144,
+              "actor": "先睡一会吧",
+              "event": "0:28 拿蛋 → 0:35 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=2&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "1:15，乌拉特克本体首次记录到无羁之怒；此前记录 8 次真实死亡事件。 当时已阵亡坦克：派瑞星。",
+          "process": "1:03 以血为生 → 尾巴 施放黑暗命令。；1:06 剑二十三丶 死亡。；1:08 乌拉特克本体 → 派瑞星 近战命中。；1:08 派瑞星 死亡。；1:09 Qui 死亡。；1:10 大老板的猎手 死亡。；1:12 小林历奇 死亡。；1:12 先睡一会吧 死亡。；1:13 毛豆豆毛 死亡。；1:14 尾巴 → 以血为生 近战命中。；1:14 吾王的荣耀 死亡。；1:15 乌拉特克本体 → Environment 施放无羁之怒。；1:16 深蓝色蒋洪福 死亡。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 3,
+      "label": "第3把 · F3",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=3",
+      "reachedPhase": "P1",
+      "durationSeconds": 150.457,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "吾王的荣耀死亡时仍持有蛋，随后孵化；致死技能为 无羁之怒。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 103.127,
+              "actor": "吾王的荣耀",
+              "event": "1:29 拿蛋 → 1:43 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=3&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "1:40，乌拉特克本体首次记录到无羁之怒；此前记录 1 次真实死亡事件。 当时已阵亡坦克：派瑞星。",
+          "process": "1:29 乌拉特克本体 → 派瑞星 近战命中。；1:32 以血为生 → 尾巴 施放黑暗命令。；1:40 派瑞星 死亡。；1:40 尾巴 → 以血为生 近战命中。；1:40 乌拉特克本体 → Environment 施放无羁之怒。；1:43 乌拉特克本体 → Environment 施放无羁之怒。；1:43 莉姆 死亡。；1:43 吾王的荣耀 死亡。；1:43 剑二十三丶 死亡。；1:45 乌拉特克本体 → 以血为生 近战命中。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 4,
+      "label": "第4把 · F4",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=4",
+      "reachedPhase": "P1",
+      "durationSeconds": 167.992,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock：背蛋吃毒波",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋吃毒波，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.5,
+              "actor": "Logwarlock",
+              "event": "1:40 拿蛋 → 1:57 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=4&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 5,
+      "label": "第5把 · F5",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=5",
+      "reachedPhase": "P1",
+      "durationSeconds": 167.99,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光、Logwarlock碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "黄色闪光",
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 131.594,
+              "actor": "黄色闪光",
+              "event": "1:31 拿蛋 → 2:11 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=5&type=events&ability=1307635"
+            },
+            {
+              "seconds": 131.594,
+              "actor": "Logwarlock",
+              "event": "1:36 拿蛋 → 2:11 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=5&type=events&ability=1307635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 6,
+      "label": "第6把 · F6",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=6",
+      "reachedPhase": "P1",
+      "durationSeconds": 143.951,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "薄膜新增记录",
+          "conclusion": "首个异常孵化记录。",
+          "process": "1:57 地面蛋首次异常孵化。该时刻持蛋者仍保持背蛋状态；具体触发来源待核对。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 7,
+      "label": "第7把 · F7",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=7",
+      "reachedPhase": "P1",
+      "durationSeconds": 73.972,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀、茗浩小宝贝碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "吾王的荣耀",
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 33.354,
+              "actor": "吾王的荣耀",
+              "event": "0:17 拿蛋 → 0:33 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=7&type=events&ability=1307635"
+            },
+            {
+              "seconds": 33.354,
+              "actor": "茗浩小宝贝",
+              "event": "0:19 拿蛋 → 0:33 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=7&type=events&ability=1307635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 8,
+      "label": "第8把 · F8",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=8",
+      "reachedPhase": "P1",
+      "durationSeconds": 153.908,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "薄膜新增记录",
+          "conclusion": "首个异常孵化记录。",
+          "process": "1:57 首次新增薄膜，对应地面蛋的具体触发事件待核对。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 9,
+      "label": "第9把 · F9",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=9",
+      "reachedPhase": "P1",
+      "durationSeconds": 162.99,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "薄膜新增记录",
+          "conclusion": "首个异常孵化记录。",
+          "process": "1:57 首次新增薄膜，对应地面蛋的具体触发事件待核对。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 10,
+      "label": "第10把 · F10",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=10",
+      "reachedPhase": "P1",
+      "durationSeconds": 49.983,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 响尾猛击。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 28.003,
+              "actor": "黄色闪光",
+              "event": "0:25 拿蛋 → 0:28 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=10&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 11,
+      "label": "第11把 · F11",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=11",
+      "reachedPhase": "P1",
+      "durationSeconds": 103.974,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 响尾猛击。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 94.698,
+              "actor": "黄色闪光",
+              "event": "1:33 拿蛋 → 1:34 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=11&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "1:40，乌拉特克本体首次记录到无羁之怒；此前记录 19 次真实死亡事件。 当时已阵亡坦克：派瑞星。",
+          "process": "1:31 乌拉特克本体 → 派瑞星 近战命中。；1:34 Mitsuri 死亡。；1:34 先睡一会吧 死亡。；1:34 黄色闪光 死亡。；1:34 以血为生 → 尾巴 施放黑暗命令。；1:35 莉姆 死亡。；1:35 Logwarlock 死亡。；1:38 尾巴 → 以血为生 近战命中。；1:39 派瑞星 死亡。；1:39 深蓝色蒋洪福 死亡。；1:39 茗浩小宝贝 死亡。；1:39 Qui 死亡。；1:39 小林历奇 死亡。；1:39 大老板的猎手 死亡。；1:39 韶光逍珑 死亡。；1:39 蛇蛇酒 死亡。；1:39 Kersen 死亡。；1:39 毛豆豆毛 死亡。；1:39 剑二十三丶 死亡。；1:39 白开掺可乐 死亡。；1:39 吾王的荣耀 死亡。；1:40 乌拉特克本体 → Environment 施放无羁之怒。；1:41 尾巴 → 以血为生 近战命中。；1:42 乌拉特克本体 → Environment 施放无羁之怒。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 12,
+      "label": "第12把 · F12",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=12",
+      "reachedPhase": "P1",
+      "durationSeconds": 159.952,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock、Qui碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "Logwarlock",
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 124.347,
+              "actor": "Logwarlock",
+              "event": "1:37 拿蛋 → 2:04 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=12&type=events&ability=1307635"
+            },
+            {
+              "seconds": 124.347,
+              "actor": "Qui",
+              "event": "1:50 拿蛋 → 2:04 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=12&type=events&ability=1307635"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 13,
+      "label": "第13把 · F13",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=13",
+      "reachedPhase": "P2",
+      "durationSeconds": 216.987,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋吃毒波，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.181,
+              "actor": "Qui",
+              "event": "1:34 拿蛋 → 1:59 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=13&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 42 秒；记录 2 次打断。",
+          "process": "3:02 厄鳞守卫 #1 恶意 被打断 1 次：3:02 莉姆；3:09 厄鳞守卫 #2 恶意 被打断 1 次：3:09 黄色闪光；3:24 以血为生 攫取毒牙移除，对应光环结束；3:25 深蓝色蒋洪福 攫取毒牙移除，对应光环结束；3:25 黄色闪光 攫取毒牙移除，对应光环结束；3:26 叫我小梅就好 攫取毒牙移除，对应光环结束；3:26 大老板的猎手 攫取毒牙移除，相邻事件记录到死亡；3:27 小梅侧 · 巢蛋 #3 3:26 蛋壳剩余 1416112 / 3718100（38.09%）；3:27 孵化光环结束，同批新增薄膜。；3:28 Logwarlock 攫取毒牙移除，对应光环结束；3:32 厄鳞守卫 恶意出现实际伤害，12 条伤害记录、涉及 4 名玩家。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 14,
+      "label": "第14把 · F14",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=14",
+      "reachedPhase": "P1",
+      "durationSeconds": 159.964,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋吃毒波，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 115.057,
+              "actor": "Qui",
+              "event": "1:54 拿蛋 → 1:55 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=14&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 15,
+      "label": "第15把 · F15",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=15",
+      "reachedPhase": "P1",
+      "durationSeconds": 134.938,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Logwarlock：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "Logwarlock死亡时仍持有蛋，随后孵化；致死技能为 剧毒之壳。",
+          "players": [
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 106.734,
+              "actor": "Logwarlock",
+              "event": "1:40 拿蛋 → 1:46 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=15&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "1:15，乌拉特克本体首次记录到无羁之怒；此前记录 2 次真实死亡事件。 两名坦克当时存活。",
+          "process": "0:48 乌拉特克本体 → 以血为生 近战命中。；1:12 Qui 死亡。；1:14 尾巴 → 以血为生 近战命中。；1:15 乌拉特克本体 → Environment 施放无羁之怒。；1:26 乌拉特克本体 → 叫我小梅就好 近战命中。；1:33 尾巴 → 以血为生 近战命中。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 16,
+      "label": "第16把 · F16",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=16",
+      "reachedPhase": "P1",
+      "durationSeconds": 54.165,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "茗浩小宝贝：背蛋靠近触发剧毒飞溅",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋靠近触发剧毒飞溅，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 25.651,
+              "actor": "茗浩小宝贝",
+              "event": "0:24 拿蛋 → 0:25 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=16&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "0:49，乌拉特克本体首次记录到无羁之怒；此前记录 14 次真实死亡事件。 当时已阵亡坦克：以血为生。",
+          "process": "0:29 尾巴 → 叫我小梅就好 近战命中。；0:37 Logwarlock 死亡。；0:37 小林历奇 死亡。；0:38 黄色闪光 死亡。；0:38 吾王的荣耀 死亡。；0:40 派瑞星 死亡。；0:40 Qui 死亡。；0:43 蛇蛇酒 死亡。；0:45 韶光逍珑 死亡。；0:45 先睡一会吧 死亡。；0:48 乌拉特克本体 → 以血为生 近战命中。；0:48 剑二十三丶 死亡。；0:48 以血为生 死亡。；0:48 尾巴 → Environment 施放恶臭痛击。；0:48 Mitsuri 死亡。；0:48 深蓝色蒋洪福 死亡。；0:48 毛豆豆毛 死亡。；0:49 乌拉特克本体 → Environment 施放无羁之怒。；0:49 白开掺可乐 死亡。；0:49 莉姆 死亡。；0:49 茗浩小宝贝 死亡。；0:51 叫我小梅就好 死亡。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 17,
+      "label": "第17把 · F17",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=17",
+      "reachedPhase": "P1",
+      "durationSeconds": 151.548,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "Qui：背蛋吃毒波",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋吃毒波，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "Qui"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 117.712,
+              "actor": "Qui",
+              "event": "1:56 拿蛋 → 1:57 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=17&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "1:44，乌拉特克本体首次记录到无羁之怒；此前记录 0 次真实死亡事件。 两名坦克当时存活。",
+          "process": "1:41 尾巴 → 以血为生 近战命中。；1:44 乌拉特克本体 → 叫我小梅就好 近战命中。；1:44 以血为生 → 乌拉特克本体 施放黑暗命令。；1:44 乌拉特克本体 → Environment 施放无羁之怒。；1:45 尾巴 → Environment 施放恶臭痛击。；1:46 先睡一会吧 死亡。；1:46 莉姆 死亡。；1:46 乌拉特克本体 → 以血为生 近战命中。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 18,
+      "label": "第18把 · F18",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=18",
+      "reachedPhase": "P1",
+      "durationSeconds": 58.988,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "茗浩小宝贝、小林历奇碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "茗浩小宝贝",
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 33.98,
+              "actor": "茗浩小宝贝",
+              "event": "0:22 拿蛋 → 0:33 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=18&type=events&ability=1307635"
+            },
+            {
+              "seconds": 33.98,
+              "actor": "小林历奇",
+              "event": "0:25 拿蛋 → 0:33 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=18&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "unchecked-rage",
+          "phase": "P1",
+          "title": "无羁之怒",
+          "conclusion": "0:44，乌拉特克本体首次记录到无羁之怒；此前记录 3 次真实死亡事件。 两名坦克当时存活。",
+          "process": "0:30 尾巴 → 叫我小梅就好 近战命中。；0:34 小林历奇 死亡。；0:43 Mitsuri 死亡。；0:43 乌拉特克本体 → 以血为生 近战命中。；0:44 蛇蛇酒 死亡。；0:44 叫我小梅就好 → 乌拉特克本体 施放黑暗命令。；0:44 乌拉特克本体 → Environment 施放无羁之怒。；0:44 深蓝色蒋洪福 死亡。；0:44 韶光逍珑 死亡。；0:44 小丶枂神 死亡。；0:44 剑二十三丶 死亡。；0:45 大老板的猎手 死亡。；0:46 吾王的荣耀 死亡。；0:47 乌拉特克本体 → Environment 施放无羁之怒。；0:47 派瑞星 死亡。；0:47 毛豆豆毛 死亡。；0:47 白开掺可乐 死亡。；0:47 Logwarlock 死亡。；0:47 叫我小梅就好 → 乌拉特克本体 施放死亡之握。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 19,
+      "label": "第19把 · F19",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=19",
+      "reachedPhase": "P1",
+      "durationSeconds": 164.508,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：背蛋吃毒波",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋吃毒波，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 124.709,
+              "actor": "吾王的荣耀",
+              "event": "1:33 拿蛋 → 2:04 背蛋吃毒波。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=19&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 22,
+      "label": "第22把 · F22",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=22",
+      "reachedPhase": "P2",
+      "durationSeconds": 193.587,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "先睡一会吧、Logwarlock碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "拿蛋后移动期间，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "先睡一会吧",
+            "Logwarlock"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 121.579,
+              "actor": "先睡一会吧",
+              "event": "1:50 拿蛋 → 2:01 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=22&type=events&ability=1307635"
+            },
+            {
+              "seconds": 121.579,
+              "actor": "Logwarlock",
+              "event": "1:51 拿蛋 → 2:01 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=22&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 19 秒；记录 0 次打断。",
+          "process": "3:13 厄鳞守卫 恶意出现实际伤害，1 条伤害记录、涉及 1 名玩家。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 23,
+      "label": "第23把 · F23",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=23",
+      "reachedPhase": "P1",
+      "durationSeconds": 162.0,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "小林历奇：背蛋靠近触发剧毒飞溅",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋靠近触发剧毒飞溅，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 119.326,
+              "actor": "小林历奇",
+              "event": "1:50 拿蛋 → 1:59 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=23&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 24,
+      "label": "第24把 · F24",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=24",
+      "reachedPhase": "P1",
+      "durationSeconds": 154.992,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "薄膜新增记录",
+          "conclusion": "首个异常孵化记录。",
+          "process": "1:57 第二轮地面蛋首次异常孵化。本轮实际记录7次拿蛋，毛豆豆毛在场存活，第二轮拿蛋记录为空。地面蛋与个人分工的对应关系待核对。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 25,
+      "label": "第25把 · F25",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=25",
+      "reachedPhase": "P2",
+      "durationSeconds": 192.139,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "毛豆豆毛：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "毛豆豆毛死亡时仍持有蛋，随后孵化；致死技能为 幽魂盘卷。",
+          "players": [
+            "毛豆豆毛"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 134.609,
+              "actor": "毛豆豆毛",
+              "event": "1:52 拿蛋 → 2:14 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=25&type=events&ability=1307612"
+            }
+          ]
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 18 秒；记录 0 次打断。",
+          "process": "3:08 厄鳞守卫 恶意出现实际伤害，12 条伤害记录、涉及 7 名玩家。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 27,
+      "label": "第27把 · F27",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=27",
+      "reachedPhase": "P2",
+      "durationSeconds": 267.653,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P2",
+          "title": "以血侧第二组蛋壳剩余后孵化",
+          "conclusion": "两枚蛋壳到期时仍有剩余，出现异常孵化。",
+          "process": "3:47 以血侧第二组两枚蛋孵化，最后蛋壳记录分别剩48.91%和67.35%；需要先完成破壳。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 93 秒；记录 4 次打断。",
+          "process": "3:03 厄鳞守卫 #2 恶意 被打断 2 次：3:03 蛇蛇酒；3:31 蛇蛇酒；3:05 厄鳞守卫 #1 恶意 被打断 2 次：3:05 剑二十三丶；3:52 派瑞星；3:32 小丶枂神 攫取毒牙移除，对应光环结束；3:32 白开掺可乐 攫取毒牙移除，对应光环结束；3:32 以血为生 攫取毒牙移除，对应光环结束；3:32 Mitsuri 攫取毒牙移除，对应光环结束；3:33 叫我小梅就好 攫取毒牙移除，对应光环结束；3:38 吾王的荣耀 攫取毒牙移除，对应光环结束；3:47 以血侧 · 巢蛋 #7 3:47 蛋壳剩余 1818527 / 3718100（48.91%）；3:47 孵化光环结束，同批新增薄膜。；3:47 以血侧 · 巢蛋 #9 3:47 蛋壳剩余 2504139 / 3718100（67.35%）；3:47 孵化光环结束，同批新增薄膜。；3:50 以血侧 · 厄鳞守卫 #2 守卫死亡。；4:00 以血为生 攫取毒牙移除，对应光环结束；4:00 吾王的荣耀 攫取毒牙移除，对应光环结束；4:00 小梅侧 · 厄鳞守卫 #1 守卫死亡。；4:01 Mitsuri 攫取毒牙移除，对应光环结束；4:08 小梅侧 · 巢蛋 #13 4:08 蛋壳剩余 621427 / 3718100（16.71%）；4:08 孵化光环结束，同批新增薄膜。；4:08 小梅侧 · 巢蛋 #14 4:08 蛋壳剩余 2877775 / 3718100（77.40%）；4:08 孵化光环结束，同批新增薄膜。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 28,
+      "label": "第28把 · F28",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=28",
+      "reachedPhase": "P1",
+      "durationSeconds": 31.973,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "吾王的荣耀：背蛋靠近触发剧毒飞溅",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋靠近触发剧毒飞溅，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "吾王的荣耀"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 20.318,
+              "actor": "吾王的荣耀",
+              "event": "0:19 拿蛋 → 0:20 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=28&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 29,
+      "label": "第29把 · F29",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=29",
+      "reachedPhase": "P2",
+      "durationSeconds": 253.981,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P2",
+          "title": "以血侧第二组蛋壳剩余后孵化",
+          "conclusion": "守卫死亡后，蛋壳仍需完成击破。",
+          "process": "3:42 以血侧守卫死亡。3:47 第二组一枚蛋壳仍剩255,043（6.86%），随后到期孵化；需要继续集火完成破壳。",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 79 秒；记录 4 次打断。",
+          "process": "3:03 厄鳞守卫 #2 恶意 被打断 2 次：3:03 吾王的荣耀；3:31 蛇蛇酒；3:05 厄鳞守卫 #1 恶意 被打断 1 次：3:05 黄色闪光；3:33 吾王的荣耀 攫取毒牙移除，对应光环结束；3:33 白开掺可乐 攫取毒牙移除，对应光环结束；3:34 茗浩小宝贝 攫取毒牙移除，对应光环结束；3:34 Mitsuri 攫取毒牙移除，对应光环结束；3:34 派瑞星 攫取毒牙移除，对应光环结束；3:35 莉姆 攫取毒牙移除，对应光环结束；3:41 小梅侧 · 厄鳞守卫 #1 守卫死亡。；3:42 以血侧 · 厄鳞守卫 #2 守卫死亡。；3:47 以血侧 · 巢蛋 #4 3:47 蛋壳剩余 255043 / 3718100（6.86%）；3:47 孵化光环结束，同批新增薄膜。；4:06 Weakened Doomscale #1 痛苦哀嚎 被打断 1 次：4:06 蛇蛇酒",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 30,
+      "label": "第30把 · F30",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=30",
+      "reachedPhase": "P2",
+      "durationSeconds": 178.444,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "茗浩小宝贝、小林历奇碰蛋",
+          "conclusion": "两颗蛋异常孵化，新增两层薄膜。",
+          "process": "分担落砸前，两名持蛋者距离小于3码并触发剧毒飞溅。",
+          "players": [
+            "茗浩小宝贝",
+            "小林历奇"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 135.657,
+              "actor": "茗浩小宝贝",
+              "event": "1:33 拿蛋 → 2:15 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=30&type=events&ability=1307635"
+            },
+            {
+              "seconds": 135.657,
+              "actor": "小林历奇",
+              "event": "1:53 拿蛋 → 2:15 触发剧毒飞溅、掉壳并增加薄膜。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=30&type=events&ability=1307635"
+            }
+          ]
+        },
+        {
+          "id": "p2-events",
+          "phase": "P2",
+          "title": "P2 打断与事件",
+          "conclusion": "P2开始 2:54，持续 4 秒；记录 0 次打断。",
+          "process": "",
+          "players": [],
+          "nextAction": "",
+          "rule": "",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 31,
+      "label": "第31把 · F31",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=31",
+      "reachedPhase": "P1",
+      "durationSeconds": 38.07,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "黄色闪光死亡时仍持有蛋，随后孵化；致死技能为 坏死蒸汽。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 24.993,
+              "actor": "黄色闪光",
+              "event": "0:18 拿蛋 → 0:24 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=31&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 32,
+      "label": "第32把 · F32",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=32",
+      "reachedPhase": "P1",
+      "durationSeconds": 70.968,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "黄色闪光：持蛋死亡触发孵化",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "0:22 黄色闪光使用暗影步靠近尾巴，0:23 受到尾巴近战攻击死亡，当时仍持有蛋，随后新增薄膜。",
+          "players": [
+            "黄色闪光"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 23.138,
+              "actor": "黄色闪光",
+              "event": "0:18 拿蛋 → 0:23 持蛋死亡触发孵化。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=32&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "reportCode": "KBaZGNDwvR4Vck8x",
+      "fightId": 33,
+      "label": "第33把 · F33",
+      "sourceUrl": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x?fight=33",
+      "reachedPhase": "P1",
+      "durationSeconds": 173.836,
+      "reviews": [
+        {
+          "id": "egg-1",
+          "phase": "P1",
+          "title": "茗浩小宝贝：背蛋靠近触发剧毒飞溅",
+          "conclusion": "新增薄膜，出现异常孵化。",
+          "process": "背蛋靠近触发剧毒飞溅，随后蛋壳消失并新增薄膜。",
+          "players": [
+            "茗浩小宝贝"
+          ],
+          "nextAction": "",
+          "rule": "",
+          "evidence": [
+            {
+              "seconds": 130.731,
+              "actor": "茗浩小宝贝",
+              "event": "1:30 拿蛋 → 2:10 背蛋靠近触发剧毒飞溅。",
+              "note": "",
+              "url": "https://cn.warcraftlogs.com/reports/KBaZGNDwvR4Vck8x#fight=33&type=events&ability=1307612"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "revision": 1,
+  "savedAt": "2026-11-17T23:49:10+08:00"
+}
