@@ -1,5 +1,7 @@
 (()=>{'use strict';
 const D=window.M8_REPLAY;
+// Fixed WCL-yard arena anchor; provenance: docs/fixed-arena-reference.md.
+const ARENA=Object.freeze({x:1,y:1553,size:140});
 // Only event-confirmed abnormal hatch results receive the crack animation.
 const abnormalHatchBases=new Set(['player_position_and_hatch_events','exact_spatial_match_to_first_viper_coordinate','gestation_end_with_membrane']);
 const isAbnormalHatch=h=>abnormalHatchBases.has(h.basis);
@@ -18,7 +20,7 @@ const delta=t=>t===0?'同刻实测':`${t>0?'后':'前'} ${Math.abs(t)} 毫秒采
 let f,t=0,playing=false,lastFrame=0,mode='key',selected=null,focus='',zoom=1,pan={x:0,y:0},drag=null,hideTimer=0,events=[],lifeEvents=[],start=0;
 let bounds={left:0,top:0,size:1};
 // WCL x points east and y north; SVG y points down. Keep labels upright.
-const mapPoint=(x,y)=>({x:x,y:2*bounds.top+bounds.size-y});
+const mapPoint=(x,y)=>({x:x-ARENA.x,y:ARENA.y-y});
 function recent(a,time){const ps=f.tracks[a]||[];let lo=0,hi=ps.length;while(lo<hi){const m=(lo+hi)>>1;if(ps[m][0]<=time)lo=m+1;else hi=m;}return lo?ps[lo-1]:null;}
 function nearest(a,time){const ps=f.tracks[a]||[];let lo=0,hi=ps.length;while(lo<hi){const m=(lo+hi)>>1;if(ps[m][0]<time)lo=m+1;else hi=m;}const a1=ps[lo],b=ps[lo-1];return !a1?b:!b?a1:Math.abs(a1[0]-time)<Math.abs(b[0]-time)?a1:b;}
 const held=(a,time)=>f.intervals.some(i=>i.actor===a&&i.start<=time&&i.end>time);
@@ -49,7 +51,8 @@ function loadFight(id,eventKey='',player=''){
  // Reincarnation is a successful self-resurrection cast, not a WCL resurrect row.
  const reincarnations=Object.entries(f.tracks).flatMap(([actor,points])=>D.roster[actor]?.class==='Shaman'?points.filter(p=>p[4]===21169&&p[5]==='cast'&&p[6]===1).map(p=>({actor:Number(actor),t:p[0],state:'alive',basis:'reincarnation_cast',sourceLine:p[3]})):[]);
  lifeEvents=[...f.life,...reincarnations].sort((a,b)=>a.t-b.t);focus=f.players.includes(Number(player))?String(player):'';const noticeData=window.M8_HATCH_NOTICES;const notices=noticeData?.report===D.report&&noticeData?.date===D.date?(noticeData.fights[String(f.id)]||[]):[];events=[...f.timeline,...notices].sort((a,b)=>a.t-b.t).map((e,i)=>({...e,key:String(i)}));
- const xs=f.eggs.map(g=>g.x).filter(x=>x!==null),ys=f.eggs.map(g=>g.y).filter(x=>x!==null);let left=Math.min(f.bounds[0],...xs),top=Math.min(f.bounds[2],...ys),span=Math.max(f.bounds[1]-left,f.bounds[3]-top,1),pad=Math.max(span*.12,6);bounds={left:left-pad,top:top-pad,size:span+pad*2};
+ bounds={left:-ARENA.size/2,top:-ARENA.size/2,size:ARENA.size};
+ $('map').style.overflow='visible';$('map').dataset.originX=ARENA.x;$('map').dataset.originY=ARENA.y;
  $('map').setAttribute('viewBox',`${bounds.left} ${bounds.top} ${bounds.size} ${bounds.size}`);for(const k of ['x','y','width','height'])$('gridRect').setAttribute(k,k==='x'?bounds.left:k==='y'?bounds.top:bounds.size);
  $('event').innerHTML='<option value="">从蛋出现开始 · 全程回放</option>'+events.filter(e=>e.kind!=='splash').map(e=>`<option value="${e.key}">${exact(e.t)} · ${esc(textEvent(e))}</option>`).join('');
  $('player').innerHTML='<option value="">全部持蛋者</option>'+f.players.map(id=>`<option value="${id}">${esc(name(id))}</option>`).join('');$('player').value=focus;$('seek').min=start;$('seek').max=f.duration;zoom=1;pan={x:0,y:0};$('zoom').value=0;transform();selectEvent(eventKey,Boolean(eventKey));
